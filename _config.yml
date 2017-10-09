@@ -1,0 +1,95 @@
+name: SARL Site
+markdown: redcarpet
+highlighter: pygments
+permalink: /news/:year/:month/:day/:title.html
+facebook_username: sarllanguage
+github_username: sarl/sarl
+
+redcarpet:
+  extensions: ["tables", "autolink", "strikethrough", "with_toc_data", "fenced_code_blocks", "prettify"]
+
+description: | 
+  SARL is a general-purpose agent-oriented language.
+  SARL aims at providing the fundamental abstractions for dealing with concurrency, distribution, interaction, decentralization, reactivity, autonomy and dynamic reconfiguration. These high-level features are now considered as the major requirements for an easy and practical implementation of modern complex software applications. We are convinced that the agent-oriented paradigm holds the keys to effectively meet this challenge.
+  Considering the variety of existing approaches and meta-models in the field of agent-oriented engineering and more generally multi-agent systems, our approach remains as generic as possible and highly extensible to easily integrate new concepts and features. The language is platform- and architecture-independent.
+
+default_asides: [asides/recent_posts.html, asides/categories.html, asides/search.html, asides/github.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+
+#Where to find the categories
+category_dir: news/categories
+
+# Where to find the API docs
+apidoc_dir: docs/api
+
+# Where to find the Suite docs
+suitedoc_dir: docs/official
+
+# Where to put the CSS file for pygments
+pygments_css_file: css/pygments.css
+pygments_style: default
+
+# Where to find the Changelog files
+changelog_dir: download
+
+# Used as default author if none is provided in the post
+author: SARL Team
+
+#Rake Tasks
+post:
+  template: _templates/_post.txt
+  extension: md
+
+page:
+  template: _templates/_page.txt
+  extension: md
+
+build:
+  files_to_ignore: Gemfile:Gemfile.lock:Rakefile:README
+  output_dir: _site
+
+sarl:
+  git_name: sarl/sarl
+  url: https://github.com/sarl/sarl.git
+  workdir: /tmp
+  branch: master
+  doc_suite: docs/io.sarl.docs.markdown
+  generated_doc: target/classes
+  generated_apidoc: target/site/apidocs
+
+git:
+  branch: master
+
+transfer:
+  command: rsync
+  settings: -av
+  source: _site/
+  destination: ../sarl.github.io/
+
+#Plugins
+scholar:
+  style: apa
+  locale: en
+  repository: files
+
+  sort_by: none
+  order: descending
+
+  source: ./_bibliography
+  bibliography: publications.bib
+  bibliography_template: bib_entry
+
+  replace_strings: true
+  join_strings:    true
+
+  #details_dir:    bibliography
+  #details_layout: bibtex.html
+  #details_link:   Details
+
+  query: "@*"
+
+# Github repositories
+github_user: 
+github_repo_count: 3
+github_show_profile_link: true
+github_skip_forks: true
+

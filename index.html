@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{site.description}}">
+  <meta name="author" content="{{site.author}}">
+  <link rel="icon" href="{{ page.relative }}images/favicon.ico" />
+  <link rel="shortcut icon" href="{{ page.relative }}images/favicon.ico">
+
+  <title>{{ page.title }}</title>
+
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/font-awesome.min.css">
+  <link rel="stylesheet" href="./css/pygments.css">
+  <link rel="stylesheet" href="./css/custom.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  </head>
+
+<body>
+
+  <div class="header">
+    <div class="logo_sarl col-md-2">
+      <img src="./images/sarl_logo100.png" alt="SARL">      
+    </div>
+    <!-- Logo menu qui dépli le menu à droite -->
+    <div id="logo_menu_content" class="logo_menu_content">
+      <span class="menu_text">MENU</span><br>
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>    
+  </div>
+
+
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <!-- <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://www.sarl.io">SARL</a>
+      </div> -->
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><i id="fa-times" class="fa fa-times" aria-hidden="true"></i></li>
+          <li><a href="{{ page.relative }}index.html">Home</a></li>
+          <li><a href="{{ page.relative }}docs/index.html">Documentation</a></li>
+          <li><a href="{{ page.relative }}download/index.html">Download</a></li>
+          <li><a href="{{ page.relative }}runtime/index.html">Run-time</a></li>
+          <li><a href="{{ page.relative }}community/index.html">Community</a></li>
+          <li><a href="{{ page.relative }}news/index.html">News &amp; Events</a></li>
+          <li><a href="{{ page.relative }}publications/index.html">Publications &amp; Presentations</a></li>
+          <li><a href="{{ page.relative }}about/index.html">About</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+
+  <div class="container section_1">
+    <!-- Main component for a primary marketing message or call to action -->
+      <h1>SARL</h1>
+
+      <h2>General-purpose Agent-Oriented Programming Language</h2>
+
+      <div class="col-md-6 bloc bloc_download flexbox">
+        <a class="btn" href="./download/index.html" role="button">Download <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+      </div>
+      <div class="col-md-6 bloc bloc_documentation flexbox">
+        <a class="btn" href="./docs/index.html" role="button">Documentation <i class="fa fa-chevron-right" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div>
+
+      </div>
+  </div>
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+    <div class="col-lg-4">
+    <img class="img-circle" src="./images/java-logo-140.png" alt="Java Interoperability">
+    <h2>Java Interoperability</h2>
+    <p>SARL code is ultimately translated to JVM bytecode. You can create Java objects, call their methods transparently from SARL Agents.</p>
+    <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+    <img class="img-circle" src="./images/eclipse-logo-140.png" alt="Eclipse Plugin">
+    <h2>Advanced IDE Support</h2>
+    <p>SARL SDK provides full integration with the Eclipse Java IDE and giving a great user experience with all expected features, such as auto-completion, syntax highlighting and much more.</p>
+    <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+    </div><!-- /.col-lg-4 -->
+    <div class="col-lg-4">
+    <a href="https://github.com/sarl/sarl"><img class="img-circle" src="./images/github-140.png" alt="Fork us on github"></a>
+    <h2>Open Source</h2>
+    <p>SARL tooling is released under <a href="http://www.apache.org/licenses/LICENSE-2.0.html">Apache License Version 2.0</a> giving you flexibility to develop your projects.</p>
+    <p style="text-align:right"><a class="btn btn-default" href="https://github.com/sarl/sarl" role="button">View details &raquo;</a></p>
+    </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <div class="row featurette">
+    <div class="col-md-7">
+    <h2 class="featurette-heading">Intuitive Syntax. <span class="text-muted">Develop faster.</span></h2>
+
+    <p class="lead">SARL is develop on top of Xtext and Xbase and inherits great features like extension methods, closures and much more.
+    Create agents faster with an intuitive syntax that lets you concentrate on your Multiagent System, not the framework.</p>
+    </div>
+    <div class="col-md-5">
+    <img class="featurette-image img-responsive img-circle" src="./images/syntax.png" alt="Intuitive Syntax">
+    </div>
+    </div>
+
+    <div class="row featurette">
+    <div class="col-md-5">
+    <img class="featurette-image img-responsive img-circle" src="./images/capacities2.png" alt="Extensible Agent Features">
+    </div>
+    <div class="col-md-7">
+    <h2 class="featurette-heading">Extensible Agent Features. <span class="text-muted">Keep it DRY</span></h2>
+    <p class="lead">
+    SARL define reusable components to describe what the agent is able to do using Capacities and Skills.
+    Easily reuse agent capacities and behaviors between agents, modules or entire applications.
+    Profit from <b>uses</b> clause to extend your agent easily.
+
+    </p>
+    </div>
+    </div>
+
+
+    <div class="row featurette">
+    <div class="col-md-7">
+    <h2 class="featurette-heading">True Holonic Agents. <span class="text-muted">The whole is greater than the sum of its parts.</span></h2>
+    <p class="lead">
+    SARL Agents are in fact holons. This lets you create agents composed of other agents possibly providing its parent with new capacities. <b>Yes, capacities can emerge for the members interactions!</b>
+    </p>
+    </div>
+    <div class="col-md-5">
+    <img class="featurette-image img-responsive img-circle" src="./images/holonic.png" alt="Holonic Agents">
+    </div>
+    </div>
+
+    <div class="row featurette">
+    <div class="col-md-5">
+    <img class="featurette-image img-responsive img-circle" src="./images/janus.png" alt="Janus Platform.">
+    </div>
+    <div class="col-md-7">
+    <h2 class="featurette-heading">Fully Distributed MAS. <span class="text-muted">Janus Platform for SARL.</span></h2>
+    <p class="lead"><a href="http://www.janusproject.io">Janus</a> is an open-source multi-agent platform fully implemented in Java 1.8. <a href="http://www.janusproject.io">Janus</a> enables developers to quickly create web, enterprise and desktop multiagent-based applications. It provides a comprehensive set of features to develop, run, display and monitor multiagent-based applications. Janus-based applications can be distributed across a network. <a href="http://www.janusproject.io">Janus</a> could be used as an agent-oriented platform, an organizational platform. It also natively manages the concept of recursive agents or holons.</p>
+    </div>
+    </div>
+
+    <div class="row featurette">
+    <div class="col-md-12">
+    <h2 class="featurette-heading  news">And Stay tunned... <span class="text-muted">Latest News.</span></h2>
+    <ul id="recent_posts">
+    {% for post in site.posts limit: site.recent_posts %}
+    <li class="post">
+    <small>{{ post.date |  date: "%B %d, %Y" }} </small> > <a href="{{ page.relative }}{{ post.url }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+    </ul>
+    </div>
+    </div>
+  </div>
+  <!-- /END THE FEATURETTES -->
+
+  <!-- FOOTER -->
+  <footer>      
+    <div class="col-lg-3">
+      <div class="well well-sm">
+        
+        <center>
+        <h2>SARL</h2>
+        <div>Agent-Oriented Programming Language</div>
+        <img src="./images/SARL-logo.png" style="width:30%;max-width:64px;"/><br/>
+        <small><a href="{{ page.relative }}images/SARL-logo.png">png</a>&nbsp;&middot;&nbsp;<a href="{{ page.relative }}images/SARL-logo.svg">svg</a></small>
+        </center>
+      </div>
+    </div>
+    <div class="col-lg-3">
+      <div class="well well-sm">
+      <h2><i class="glyphicon glyphicon-th-large"></i> Quick Links </h2> 
+      <ul class="fa-ul">
+      <li>
+      <a href="{{ page.relative }}news/index.html">
+        <i class="fa-li fa fa-feed"></i> News
+      </a>
+      </li>
+      <li>
+      <a href="{{ page.relative }}about/index.html">
+        <i class="fa-li fa fa-info"></i> About
+      </a>
+      </li>
+      <li>
+      <a href="{{ page.relative }}about/index.html#license">
+        <i class="fa-li fa fa-legal"></i> License
+      </a>
+      </li>
+      </ul>
+      </div> 
+    </div>
+    <div class="col-lg-3">
+      <div class="well well-sm">
+      <h2><i class="glyphicon glyphicon-cog"></i> Support</h2>
+      <ul class="fa-ul">
+      <li>
+      <a href="{{ page.relative }}community/forums.html">
+        <i class="fa-li fa fa-comments"></i> User Forums
+      </a>
+      </li>
+    {% if site.github_username %}
+      <li>
+      <a href="https://github.com/{{ site.github_username }}" target="_blank">
+        <i class="fa-li fa fa-github"></i> GitHub
+      </a>
+      </li>
+      <li>
+      <a href="https://github.com/{{ site.github_username }}/issues" target="_blank">
+        <i class="fa-li fa fa-bug"></i> Report an Issue
+      </a>
+      </li>
+    {% endif %}
+    {% if site.linkedin_username %}
+      <li>
+      <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
+        <i class="fa-li fa fa-linkedin"></i> LinkedIn
+      </a>
+      </li>
+    {% endif %}
+    {% if site.facebook_username %}
+      <li>
+      <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">
+        <i class="fa-li fa fa-facebook"></i> Facebook
+      </a>
+      </li>
+    {% endif %}
+    {% if site.twitter_username %}
+      <li>
+      <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+        <i class="fa-li fa fa-twitter"></i> Twitter
+      </a>
+      </li>
+    {% endif %}
+    {% if site.dribbble_username %}
+      <li>
+        <a href="https://dribbble.com/{{ site.dribbble_username }}" target="_blank">
+        <i class="fa-li fa fa-dribbble"></i> Dribbble
+      </a>
+      </li>
+    {% endif %}
+      </ul>
+      </div> 
+    </div>
+    <div class="col-lg-3">
+      <div class="well well-sm">
+      <h2><i class="glyphicon glyphicon-link"></i> Links</h2>
+      <ul class="fa-ul">
+        <li><a href="http://www.janusproject.io" target="_blank"><i class="fa-li fa fa-gears"></i>Janus Project</a></li>
+        <li><a href="http://www.gitia.org" target="_blank"><i class="fa-li fa fa-university"></i>GITIA - FRT - UTN</a></li>
+        <li><a href="http://www.multiagent.fr" target="_blank"><i class="fa-li fa fa-university"></i>MAS Group - LE2I - UBFC</a></li>
+      </ul>
+      </div> 
+    </div>
+    </div>
+    
+  </footer>
+
+
+
+</body>
+
+</html>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="./js/jquery.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/run_prettify.js"></script>
+<script src="./js/lang-sarl.js"></script>
+<script src="./js/custom.js"></script>

@@ -1,0 +1,6 @@
+workspace
+_site
+docs/suite
+docs/api
+Gemfile.lock
+Gemfile
