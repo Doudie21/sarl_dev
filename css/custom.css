@@ -30,6 +30,7 @@ footer {
 body
 {
   /*padding-top: 70px;*/
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 p {
@@ -46,7 +47,7 @@ h1
   font-weight: 800;
   letter-spacing: 4px;
   /*border-bottom: 1px solid $primary-color;*/
-  color: #333333;
+  color: #455162;
   /*margin-bottom: 20px;*/
   /*padding-bottom: 20px;*/
   text-align: center;
@@ -54,8 +55,10 @@ h1
 
 h2
 {
-  text-align: center;
   color: #df691a;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .jumbotron {
@@ -86,7 +89,7 @@ h2
 
 .header
 {
-  height: 100px;
+  height: 39px;
 }
 
 .logo_menu_content
@@ -141,7 +144,7 @@ h2
   background-origin: content-box;
   background-size: 100%;
   height: 350px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .section_1 .bloc .btn
@@ -177,23 +180,24 @@ h2
 
 .fa-chevron-circle-down:hover
 {
-  /*color: black;*/
-  /*margin-top: 10px;*/
+  /*color: #455162;*/
+  margin-top: 10px;
 }
 
 .section_2
 {
-  background: #f0f0f0;
+  background: #eceaea;
   padding:50px 0;
 }
 
 .section_2 .content_techno
 {
   background: white;
-  border-radius: 10px;
-  min-height: 500px;
+  border-radius: 195px;
+  min-height: 345px;
   padding: 15px;
 }
+
 
 footer
 {
@@ -507,12 +511,9 @@ body
   color: #333333;
 }
 
-.marketing .col-lg-4 a {
+.marketing .col-lg-4 a
+{
   color: #df691a;
-}
-
-.marketing .col-lg-4 a.btn {
-  color: #f0f0f0;
 }
 
 .marketing .col-lg-4 p {
