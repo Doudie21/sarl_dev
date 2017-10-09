@@ -43,6 +43,8 @@ h1,h2,h3
 
 h1
 {
+  font-weight: 800;
+  letter-spacing: 4px;
   /*border-bottom: 1px solid $primary-color;*/
   color: #333333;
   /*margin-bottom: 20px;*/
@@ -188,7 +190,9 @@ h2
 .section_2 .content_techno
 {
   background: white;
+  border-radius: 10px;
   min-height: 500px;
+  padding: 15px;
 }
 
 footer
