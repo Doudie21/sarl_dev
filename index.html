@@ -74,7 +74,7 @@
     <!-- Main component for a primary marketing message or call to action -->
       <h1>S.A.R.L</h1>
 
-      <h2>General-purpose Agent-Oriented Programming Language</h2>
+      <p><span class="sous_titre">General-purpose Agent-Oriented Programming Language</span></p>
 
       <div class="col-md-6 bloc bloc_download flexbox">
         <a class="btn" href="./download/index.html" role="button">Download <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
@@ -94,7 +94,7 @@
 
   <div class="section_2 row">
     <div class="container marketing">
-      <h2>Lorem ipsum df gsns egsrpjgsef</h2>
+      <h2>Lorem ipsum dolor sit amet</h2>
       <!-- Three columns of text below the carousel -->
         <div class="col-lg-4">
           <div class="content_techno">
@@ -125,61 +125,61 @@
   </div>
 
   <div class="section_3 row">
-    <div class="col-md-12">
-      <div class="">
-        <div class="col-md-7">
-        <h2 class="-heading">Intuitive Syntax. <span class="text-muted">Develop faster.</span></h2>
 
-        <p class="lead">SARL is develop on top of Xtext and Xbase and inherits great features like extension methods, closures and much more.
-        Create agents faster with an intuitive syntax that lets you concentrate on your Multiagent System, not the framework.</p>
-        </div>
-        <div class="col-md-5">
-        <img class="-image img-responsive img-circle" src="./images/syntax.png" alt="Intuitive Syntax">
-        </div>
+    <div class="row">
+      <div class="col-md-6 content_text flexbox">
+          <h2>Intuitive Syntax<br><span class="text-muted">Develop faster</span></h2>
+
+          <p class="lead">SARL is develop on top of Xtext and Xbase and inherits great features like extension methods, closures and much more.
+          Create agents faster with an intuitive syntax that lets you concentrate on your Multiagent System, not the framework.</p>
       </div>
 
-      <div class="">
-        <div class="col-md-5">
-        <img class="-image img-responsive img-circle" src="./images/capacities2.png" alt="Extensible Agent Features">
-        </div>
-        <div class="col-md-7">
-        <h2 class="-heading">Extensible Agent Features. <span class="text-muted">Keep it DRY</span></h2>
+      <div class="col-md-6">
+        <img src="./images/syntax.png" alt="Intuitive Syntax">
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <img src="./images/capacities2.png" alt="Extensible Agent Features">
+      </div>
+
+      <div class="col-md-6 content_text flexbox">
+        <h2>Extensible Agent Features<br><span class="text-muted">Keep it DRY</span></h2>
         <p class="lead">
         SARL define reusable components to describe what the agent is able to do using Capacities and Skills.
         Easily reuse agent capacities and behaviors between agents, modules or entire applications.
         Profit from <b>uses</b> clause to extend your agent easily.
 
         </p>
-        </div>
       </div>
+    </div>
 
-
-      <div class="">
-        <div class="col-md-7">
-        <h2 class="-heading">True Holonic Agents. <span class="text-muted">The whole is greater than the sum of its parts.</span></h2>
+    <div class="row">
+      <div class="col-md-6 content_text flexbox">
+        <h2>True Holonic Agents.<br><span class="text-muted">The whole is greater than the sum of its parts.</span></h2>
         <p class="lead">
         SARL Agents are in fact holons. This lets you create agents composed of other agents possibly providing its parent with new capacities. <b>Yes, capacities can emerge for the members interactions!</b>
         </p>
-        </div>
-        <div class="col-md-5">
-        <img class="-image img-responsive img-circle" src="./images/holonic.png" alt="Holonic Agents">
-        </div>
       </div>
+      <div class="col-md-6">
+        <img src="./images/holonic.png" alt="Holonic Agents">
+      </div>
+    </div>
 
-      <div class="">
-        <div class="col-md-5">
-        <img class="-image img-responsive img-circle" src="./images/janus.png" alt="Janus Platform.">
-        </div>
-        <div class="col-md-7">
-        <h2 class="-heading">Fully Distributed MAS. <span class="text-muted">Janus Platform for SARL.</span></h2>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="./images/janus.png" alt="Janus Platform.">
+      </div>
+      <div class="col-md-6 content_text flexbox">
+        <h2>Fully Distributed MAS.<br><span class="text-muted">Janus Platform for SARL.</span></h2>
         <p class="lead"><a href="http://www.janusproject.io">Janus</a> is an open-source multi-agent platform fully implemented in Java 1.8. <a href="http://www.janusproject.io">Janus</a> enables developers to quickly create web, enterprise and desktop multiagent-based applications. It provides a comprehensive set of features to develop, run, display and monitor multiagent-based applications. Janus-based applications can be distributed across a network. <a href="http://www.janusproject.io">Janus</a> could be used as an agent-oriented platform, an organizational platform. It also natively manages the concept of recursive agents or holons.</p>
-        </div>
       </div>
+    </div>
 
-
-      <div class="">
-        <div class="col-md-12">
-        <h2 class="-heading  news">And Stay tunned... <span class="text-muted">Latest News.</span></h2>
+    <div class="row">
+      <div class="container">
+        <h2 news">And Stay tunned... <span class="text-muted">Latest News.</span></h2>
         <ul id="recent_posts">
         {% for post in site.posts limit: site.recent_posts %}
         <li class="post">
@@ -187,10 +187,8 @@
         </li>
         {% endfor %}
         </ul>
-        </div>
       </div>
-
-    </div>
+    </div>    
     <!-- START THE S -->
 
   </div>
