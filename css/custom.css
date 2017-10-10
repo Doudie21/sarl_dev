@@ -178,7 +178,7 @@ h2
 
 .section_1 .bloc .btn:hover
 {
-    box-shadow: 450px 0 0 0 rgba(227, 199, 133, 0.3) inset, -450px 0 0 0 rgba(227, 199, 133, 0.7) inset;
+    box-shadow: 450px 0 0 0 rgba(223, 105, 26, 0.3) inset, -450px 0 0 0 rgba(223, 105, 26, 0.7) inset;
     color: white;
 }
 
