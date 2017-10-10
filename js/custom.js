@@ -10,15 +10,26 @@ jQuery(document).ready(function()
 		$('.navbar').toggle('slow');
 	})
 
-	//fonction pour taper la citation
+
+	//Code qui permet de scroller sur la section 2 avec le chevron
+	$(".fa-chevron-circle-down").click(function()
+	{
+		$('html, body').animate({
+		scrollTop: $(".section_2").offset().top
+		}, 2000);
+	});
+	//fin---------------------------------------------------------
+
+
+	//fonction pour taper la citation-----------------------------
 	text = 'S.A.R.L';
 	emplacement = '#title';
 	textfrappe(text, emplacement);
-	//fin
+	//fin---------------------------------------------------------
 
 
+	//Code qui anime l'arrivée des blocs sur la home--------------
 	window.sr = ScrollReveal();
-
 	sr.reveal('.bloc',
 	{
 		origin: 'bottom',
@@ -41,6 +52,7 @@ jQuery(document).ready(function()
 		duration: 1200,
 		}, 300);
 	});
+	//fin---------------------------------------------------------
 
 });
 
@@ -54,10 +66,7 @@ function textfrappe($text, $emplacement)
         strings: [$text], // More SEO Friendly look here: https://github.com/mattboldt/typed.js/
         typeSpeed: 200, // typing speed
         backDelay: 750, // pause before backspacing
-        showCursor: false,
-        // loop: true, // loop on or off (true or false)
-        // loopCount: false, // number of loops, false = infinite
-        // callback: function(){ } // call function after typing is done
+        showCursor: false
     });
   },
     0
