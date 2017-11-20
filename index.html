@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!-- Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet"> <!-- Font pour le titre principal -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">  <!-- Font pour le titre principal -->
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
   
 
@@ -59,12 +59,12 @@
         <ul class="nav navbar-nav">
           <li><i id="fa-times" class="fa fa-times" aria-hidden="true"></i></li>
           <li><a href="{{ page.relative }}index.html">Home</a></li>
-          <li><a href="{{ page.relative }}docs/index.html">Documentation</a></li>
-          <li><a href="{{ page.relative }}download/index.html">Download</a></li>
+          <li><a href="download/index.html">Download</a></li>
+          <li class="menu_animation"><a href="#">Documentation</a></li>
+          <li class="sous-menu"><a href="/publications/index.html">Publications &amp; Presentations</a></li>
           <li><a href="{{ page.relative }}runtime/index.html">Run-time</a></li>
           <li><a href="{{ page.relative }}community/index.html">Community</a></li>
           <li><a href="{{ page.relative }}news/index.html">News &amp; Events</a></li>
-          <li><a href="{{ page.relative }}publications/index.html">Publications &amp; Presentations</a></li>
           <li><a href="{{ page.relative }}about/index.html">About</a></li>
         </ul>
       </div><!--/.nav-collapse -->
@@ -95,7 +95,7 @@
 
   <div class="section_2 row">
     <div class="container marketing">
-      <h2>Lorem ipsum dolor sit amet</h2>
+      <h2>Our services</h2>
       <!-- Three columns of text below the carousel -->
         <div class="col-lg-4">
           <div class="content_techno">
@@ -163,15 +163,17 @@
         SARL Agents are in fact holons. This lets you create agents composed of other agents possibly providing its parent with new capacities. <b>Yes, capacities can emerge for the members interactions!</b>
         </p>
       </div>
-      <div class="col-md-6">
-        <img src="./images/holonic.png" alt="Holonic Agents">
+      <div class="col-md-6 content_img_holons">
+        <!-- <img src="./images/holonic.png" alt="Holonic Agents"> -->
       </div>
     </div>
 
     <div class="row">
-      <div class="col-md-6">
-        <img src="./images/janus.png" alt="Janus Platform.">
+
+      <div class="col-md-6 content_img_janus">
+        <!-- <img src="./images/janus.png" alt="Janus Platform."> -->
       </div>
+
       <div class="col-md-6 content_text flexbox">
         <h2>Fully Distributed MAS.<br><span class="text-muted">Janus Platform for SARL.</span></h2>
         <p class="lead"><a href="http://www.janusproject.io">Janus</a> is an open-source multi-agent platform fully implemented in Java 1.8. <a href="http://www.janusproject.io">Janus</a> enables developers to quickly create web, enterprise and desktop multiagent-based applications. It provides a comprehensive set of features to develop, run, display and monitor multiagent-based applications. Janus-based applications can be distributed across a network. <a href="http://www.janusproject.io">Janus</a> could be used as an agent-oriented platform, an organizational platform. It also natively manages the concept of recursive agents or holons.</p>
@@ -194,7 +196,6 @@
 
   </div>
   <!-- /END THE S -->
-
 
   <!-- FOOTER -->
   <footer class="row">
@@ -299,9 +300,6 @@
     </div>
     
   </footer>
-
-
-
 </body>
 
 </html>

@@ -44,12 +44,12 @@ h1,h2,h3
 
 h1
 {
-  font-family: 'Slabo 27px', serif;
-  /*font-weight: 800;*/
-  letter-spacing: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 900;
+  letter-spacing: 5px;
   /*border-bottom: 1px solid $primary-color;*/
   color: #455162;
-  /*margin-bottom: 20px;*/
+  margin-bottom: 20px;
   /*padding-bottom: 20px;*/
   text-align: center;
 }
@@ -126,11 +126,11 @@ h2
 
 .sous_titre
 {
-  background-color: #df691a;
+  /*background-color: #df691a;*/
   border-radius: 20px;
-  color: white;
-  font-size: 19px;
-  font-style: italic;
+  color: #df691a;
+  font-size: 20px;
+  /*font-style: italic;*/
   padding: 5px 15px;
 }
 
@@ -253,6 +253,30 @@ h2
   background-size: 100%;
 }
 
+.section_3 .content_img_holons
+{
+  background: url('../images/holons.jpg');
+  /*background-size: 100%;*/
+  /*background-attachment: fixed;*/
+  background-repeat: no-repeat;
+}
+
+.section_3 .content_img_holons
+{
+  background: url('../images/holons.jpg');
+  /*background-size: 100%;*/
+  /*background-attachment: fixed;*/
+  background-repeat: no-repeat;
+}
+
+.section_3 .content_img_janus
+{
+  background: url('../images/janus.jpg');
+  /*background-size: 100%;*/
+  /*background-attachment: fixed;*/
+  background-repeat: no-repeat;
+}
+
 footer
 {
   background: #4e5d6c;
@@ -269,8 +293,9 @@ footer h2
 /* Downloads
 ------------------------------------------------*/
 
-.pricing {
-  margin-bottom: 40px;
+.pricing
+{
+  margin-bottom: 40px;/*
   border: 1px solid #d4d4d4;
   border-width: 1px 1px 4px 1px;
   border-top-left-radius: 5px;
@@ -284,7 +309,7 @@ footer h2
   -moz-border-radius-bottomleft: 9px;
   -moz-border-radius-bottomright: 9px;
   -webkit-border-bottom-right-radius: 9px;
-  -webkit-border-bottom-left-radius: 9px;
+  -webkit-border-bottom-left-radius: 9px;*/
 }
 
 .pricing table {
@@ -314,7 +339,7 @@ footer h2
 }
 
 .pricing tfoot td {
-  background: #ededed;
+  /*background: #ededed;*/
   /*width: 84.3%;*/
   width: 100%;
   padding: 20px 8%;
@@ -326,7 +351,8 @@ footer h2
   -webkit-border-bottom-left-radius: 6px;
 }
 
-.pricing td {
+.pricing td
+{
   background: #fff;  
   width: 100%;
   padding: 10px 8%;
@@ -335,12 +361,14 @@ footer h2
   float: left;
 }
 
-tfoot td {
+tfoot td 
+{
   text-align: center;
 }
 
-.pricing td.focus {
-  background: #4e5d6c;
+.pricing td.focus 
+{
+  /*background: #4e5d6c;*/
   width: 100%;
   padding: 25px 8%;
   font-family: 'Lato', sans-serif;
@@ -349,9 +377,11 @@ tfoot td {
   font-weight: 400;
   text-align: center;
   border-bottom: 1px solid #d4d4d4;
+  min-height: 260px;
 }
 
-.pricing td.focus-best {
+.pricing td.focus-best 
+{
   background: #A00;
   width: 100%;
   padding: 25px 8%;
@@ -363,18 +393,21 @@ tfoot td {
   border-bottom: 1px solid #d4d4d4;
 }
 
-.pricing td.focus span {
+.pricing td.focus span 
+{
   font-size: 10px;
   display: block;
   margin-top: 5px;
 }
 
-.pricing td.focus-best span {
+.pricing td.focus-best span 
+{
   font-size: 10px;
   display: block;
 }
 
-.pricing td h6 {
+.pricing td h6
+{
   width: 60%;
   font-family: 'Lato', sans-serif;
   font-size: 12px;
@@ -383,14 +416,57 @@ tfoot td {
   float: left;
 }
 
-.pricing td p {
+.pricing td p
+{
   width: 40%;
   text-align: right;
   float: left;
 }
 
+.bloc_download h2
+{
+  font-style: normal;
+  text-transform: uppercase;
+}
+
+.stable_version,
+.instable_version
+{
+  border: 1px solid #c8c8c8;
+  margin-bottom: 20px;
+  min-height: 450px;
+}
+
+.stable_version table,
+.instable_version table
+{
+  text-align: center;
+  width: 100%;
+}
+
+.stable_version
+{
+  background: #91afcc;
+}
+
+.instable_version
+{
+  /*border: 1px solid grey;*/
+}
+
+.instable_version .btn-primary
+{
+  color: #333333;
+  background: #dedede;
+}
 
 
+.panel-title a:before
+{
+  content: "❯ ";
+  color: orange;
+  font-size: 20px;
+}
 
 
 /* MARKETING CONTENT
@@ -613,10 +689,10 @@ img {
 }
 
 table {
-  margin-top: 10px;featurette-image
+  /*margin-top: 10px;featurette-image
   margin-bottom: 10px;
   margin-left: 5px;
-  margin-right: 5px;
+  margin-right: 5px;*/
   border-collapse: collapse !important;
 }
 
@@ -630,7 +706,7 @@ tbody > tr > td {
   padding-bottom: 2px;
   padding-left: 5px;
   padding-right: 5px;
-  border:1px solid #bbb !important;
+  /*border:1px solid #bbb !important;*/
 }
 
 

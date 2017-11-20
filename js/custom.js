@@ -8,6 +8,11 @@ jQuery(document).ready(function()
 	$('#fa-times').click(function()
 	{
 		$('.navbar').toggle('slow');
+	});
+
+	$('.menu_animation').click(function()
+	{
+		$('.sous-menu').toggle('slow');
 	})
 
 
@@ -22,7 +27,7 @@ jQuery(document).ready(function()
 
 
 	//fonction pour taper la citation-----------------------------
-	text = 'S.A.R.L';
+	text = 'SARL';
 	emplacement = '#title';
 	textfrappe(text, emplacement);
 	//fin---------------------------------------------------------
