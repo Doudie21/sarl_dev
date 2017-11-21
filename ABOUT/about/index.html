@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en-US" class="no-js">
+	<head>
+		<link rel="stylesheet" href="../css/animations.css" type="text/css">
+		<link rel="stylesheet" href="../css/ihover.css" type="text/css">
+  <link rel="stylesheet" href="../css/font-awesome.min.css">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="style/style.css" type="text/css">
+	</head>
+	<body>
+		<header class="mainHeader">
+		
+  <div class="header">
+    <div class="logo_sarl col-md-2">
+      <img src="../images/sarl_logo100.png" alt="SARL">      
+    </div>
+    <!-- Logo menu qui dépli le menu à droite -->
+    <div id="logo_menu_content" class="logo_menu_content">
+      <span class="menu_text">MENU</span><br>
+      <i class="fa fa-bars" aria-hidden="true"></i>
+    </div>    
+  </div>
+
+
+  <!-- Fixed navbar -->
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+      <!-- <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="http://www.sarl.io">SARL</a>
+      </div> -->
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li><i id="fa-times" class="fa fa-times" aria-hidden="true"></i></li>
+          <li><a href="{{ page.relative }}index.html">Home</a></li>
+          <li><a href="{{ page.relative }}docs/index.html">Documentation</a></li>
+          <li><a href="{{ page.relative }}download/index.html">Download</a></li>
+          <li><a href="{{ page.relative }}runtime/index.html">Run-time</a></li>
+          <li><a href="{{ page.relative }}community/index.html">Community</a></li>
+          <li><a href="{{ page.relative }}news/index.html">News &amp; Events</a></li>
+          <li><a href="{{ page.relative }}publications/index.html">Publications &amp; Presentations</a></li>
+          <!-- <li><a href="{{ page.relative }}about/index.html">About</a></li> -->
+          <li><a href="about/index.html">About</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+			<div class='container'>
+			
+				<div class='animatedParent'  style=" margin-top:300px; margin-left:-50px" >
+					<h1 class='animated growIn slow'  data-id='1'>Page About</h1>
+					<div class='animated growIn slower' style="margin:50px 0 50px 0; color:#fff;font-style:italic;"  data-id='2'><b>SARL</b> is a statically-typed agent-programming language.
+					SARL aims at providing the fundamental abstractions for dealing with concurrency, distribution, interaction, decentralization, 
+					reactivity, autonomy and dynamic reconfiguration. These high-level features are now considered as the major requirements for an easy
+					and practical implementation of modern complex software applications. We are convinced that the agent-oriented paradigm holds the keys
+					to effectively meet this challenge.</div>
+					<div class='buttons-inline animated growIn slow'   data-id='3'>
+					<a class="btn btn-primary" style="margin-right:30px " href="#about">More About</a>
+					<a class='btn btn-default' href='#team'>Team</a>
+					</div>
+					 <div class="arrow">
+        <a class=" fa-chevron-circle-down" aria-hidden="true"></a>
+      </div>
+				</div>
+			</div>
+		</header>
+
+
+		<div class=' section_2 greyBackground'>
+			<div class='container' >
+				<div class='animatedParent' >
+				<div class="txtNew">
+
+<h2 style="text-align:center;" class="font_2 animated growIn slow"><span class="backcolor_11">&nbsp; &nbsp; About &nbsp; &nbsp;</span></h2>
+</div>
+					
+				</div>
+
+
+				<!-- Offset -->
+				<div class='animatedParent row article'>
+				
+					<div class='col-md-6'>
+						<div class='animated bounceInLeft slow'>
+
+
+Syntactically and semantically SARL has its roots in the Java programming language but improves on many aspects:
+<ul>
+<li><strong><a href="{{ page.relative }}docs/official/index.html#5-2-agent-oriented-programming">Agent specific statements</a></strong> - provide specific statements for agent programming</li>
+<li><strong><a href="{{ page.relative }}docs/official/reference/GeneralSyntax.html">Type inference</a></strong> - you rarely need to write down type signatures anymore</li>
+<li><strong><a href="{{ page.relative }}docs/official/reference/general/Lambda.html">Lambda expressions</a></strong> - concise syntax for anonymous function literals</li>
+<li><strong><a href="{{ page.relative }}docs/official/reference/general/Operators.html">Operator overloading</a></strong> - make your libraries even more expressive</li>
+<li><strong><a href="{{ page.relative }}docs/official/reference/general/Extension.html">Extension methods</a></strong> - enhance closed types with new functionality</li>
+<li><strong><a href="{{ page.relative }}docs/official/reference/general/SwitchExpression.html">Powerful switch expressions</a></strong> - type based switching with implicit casts</li>
+<li><strong><a href="{{ page.relative }}docs/official/reference/GeneralSyntax.html#4-details-on-the-sarl-language-elements">No statements</a></strong> - everything is an expression</li>
+<li><strong>Full support for Java generics</strong> - including all conformance and conversion rules</li>
+<li><strong>Translates to Java not bytecode</strong> - understand what is going on and use your code for platforms such as Android or GWT</li>
+</ul>						
+</div>
+					</div>
+					
+					<div class='col-md-6'>
+						<p class='animated bounceInRight slow'>
+							<img src="../images/about_us.png">
+						</p>
+					</div>
+					</div>
+					<div class='animatedParent '>
+				<div class='col-md-6'>
+						<div class='animated bounceInLeft slow'>
+					<img src="../images/information.png">
+						</div>
+					</div>
+	<div class='col-md-6' style="margin-top:50px;">
+						<p class='animated bounceInRight slow'>
+Unlike other JVM languages, SARL has zero interoperability issues with Java: everything you write interacts with Java exactly as expected. At the same time, SARL is much more concise, readable and expressive.
+
+Of course, you can call SARL methods from Java, too, in a completely transparent way. Furthermore, SARL provides a modern Eclipse-based IDE closely integrated with the Eclipse Java Development Tools (JDT), including features like call-hierarchies, rename refactoring, debugging and many more.
+
+Nevertheless, and even if SARL is closely related to Java, the SARL compiler is able to generate code for other target languages, e.g. Python.
+
+For a brief comparison between SARL, Java and Xtend languages, see the Section
+"<a href="{{ page.relative }}docs/officialreference/OOP.md#comparison-between-sarl-java-and-xtend">Comparison between SARL, Java and Xtend</a>".
+
+We provide a first set of tools to support the SARL program execution based on the new version 2.0 of the <a href="http://www.janusproject.io" target="_blank">Janus Platform</a>, but it can be linked with other existing agent platforms and frameworks.
+		</p>				
+					</div>
+			
+			</div>
+</div>
+			</div>
+		<div class='animatedParent' >
+		<div id='team'>
+<div class="txtNew">
+
+<h2 style="text-align:center;" class="font_2 animated growIn slow"><span class="backcolor_11">&nbsp; &nbsp; Original Authors&nbsp; &nbsp;</span></h2>
+</div>
+<div class="teamsection">
+<div class="animated bounceInUp slow ">
+<p>The original authors are the originators of the SARL language and framework. They are passionate in supporting the SARL community, developing the framework continuously further and creating the perfect agent DSL for their customers. SARL is open source and completely free to use - but you can be faster and more successful with <a href="{{ page.relative }}community/pros.html"><i class="fa fa-support"></i> our professional support</a>.</p>
+
+  <div class="row">
+  
+  
+    <div class="col-lg-4">
+	  <div class="ih-item circle effect3 left_to_right">
+		<a href="http://www.multiagent.fr/People:Galland_stephane" target="_blank">
+			<div class="img"><img src="https://avatars.githubusercontent.com/gallandarakhneorg?size=128" alt="Dr. St&eacute;phane Galland"></div>
+			<div class="info">
+				<h4><span style="font-size: 50%;">prof. dr.</span> St&eacute;phane Galland</h4>
+                <p>St&eacute;phane is Professor in agent-based modeling and simulation at Burgondy Franche-Comt&eacute; University, France. He is one of the contributors to the ASPECS methodology, CRIO metamodel, and Janus agent platform. He contributes to a wide variety of professional and open source projects, including Xtext, Hazelcast, Checkstyle, CTAN, and Jnario.</p>
+			</div>
+		</a>
+	  </div>
+    </div>
+   
+
+   <div class="col-lg-4">
+     <div class="ih-item circle effect3 left_to_right">
+      <a href="http://www.multiagent.fr/People:Gaud_nicolas" target="_blank">
+		<div class="img"><img src="https://avatars.githubusercontent.com/ngaud?size=128" alt="Dr. Nicolas Gaud"></div>
+		<div class="info">
+			<h4><span style="font-size: 50%;">dr.</span>Nicolas Gaud</h4>
+			<p>Nicolas is Professor in agent-based software engineering and simulation at Burgondy Franche-Comt&eacute; University. His main research interests deal with the modeling, analysis and simulation of complex systems using Agent-Oriented Software Engineering, Holonic Multiagent Systems and Multiagent-based simulation. He is also involved in various professional projects dealing with the simulation of virtual entities (pedestrian, transportation systems, etc) in virtual environments.</p>
+        </div>
+	  </a>
+	 </div>	
+    </div>
+	
+	
+    <div class="col-lg-4">
+	 <div class="ih-item circle effect3 left_to_right">
+      <a href="http://gitia.org/members/sebastian-rodriguez" target="_blank">
+		<div class="img"><img src="https://avatars.githubusercontent.com/srodriguez?size=128" alt="Pr.Dr. Sebastian Rodriguez"></div>
+		<div class="info">
+			<h4><span style="font-size: 50%;">prof. dr.</span> Sebastian Rodriguez</h4>
+			<p>Sebastian is Professor and Head of the Advanced Informatics Technology Research Group, Tucuman, Argentina. He contributes to agent software engineering field with the CRIO metamodel, the ASPECS methodology, and the Janus agent platform.</p>
+		</div>
+	  </a>
+	 </div>	
+   </div>
+</div>
+</div>
+
+<div class="txtNew  animated growIn slow">
+
+<h2 style="text-align:center;" class="font_2"><span class="backcolor_11">&nbsp; &nbsp; Other Constributors&nbsp; &nbsp;</span></h2>
+</div>
+
+  <div class="row">
+  
+    <div class="col-lg-2" id="img_pad">
+	 <div class="ih-item circle effect10 top_to_bottom" id="circle2">
+      <a href="https://github.com/klmp200" target="_blank">
+	  <div class="img" id="img2"><img src="https://avatars.githubusercontent.com/klmp200?size=128"></div>
+	  <div class="info">
+			<h4>Antoine Bartuccio</h4>
+		<p>Fireworks and Sierpinski fractal examples</p>
+		</div>
+	  </a>
+      </div>
+    </div>
+	
+    <div class="col-lg-2" id="img_pad">
+	 <div class="ih-item circle effect10 top_to_bottom" id="circle2">
+      <a href="https://github.com/m-ezzat" target="_blank">
+	  <div class="img" id="img2"><img src="https://avatars.githubusercontent.com/m-ezzat?size=128"></div>
+	  <div class="info">
+			<h4>Mohamed Ezzat</h4>
+		<p>Code cleaning and optimization</p>
+		</div>
+	  </a>
+      </div>
+    </div>
+	
+	
+    <div class="col-lg-2" id="img_pad">
+		 <div class="ih-item circle effect10 top_to_bottom" id="circle2">
+      <a href="https://github.com/jgfoster" target="_blank">
+	  <div class="img" id="img2"><img src="https://avatars.githubusercontent.com/jgfoster?size=128"></div>
+	  <div class="info">
+			<h4>James Foster</h4>
+		<p>Documentation contributor</p>
+		</div>
+	  </a>
+    </div>
+  </div>
+ 
+    <div class="col-lg-2" id="img_pad">
+		 <div class="ih-item circle effect10 top_to_bottom" id="circle2">
+      <a href="https://github.com/jjst"  target="_blank">
+	  <div class="img" id="img2"><img src="https://avatars.githubusercontent.com/jjst?size=128"></div>
+	  <div class="info">
+			<h4>Jeremie Jost</h4>
+		<p>Documentation contributor</p>
+		</div>
+	  </a>
+    </div>
+    </div>
+	
+    <div class="col-lg-2" id="img_pad">
+	<div class="ih-item circle effect10 top_to_bottom" id="circle2">
+      <a href="https://github.com/tpiotrow"   target="_blank">
+	  <div class="img" id="img2"><img src="https://avatars.githubusercontent.com/tpiotrow?size=128"></div>
+	  <div class="info">
+			<h4>Thomas Piotrowski</h4>
+		<p>Maven Configuration</p>
+		</div>
+	  </a>
+    </div>
+    </div>
+  </div>
+  </div>
+</div>
+		</div>
+
+<div>
+		<div class='animatedParent' data-sequence='1000'>
+			<div class=' animated growIn greyBackground' data-id='1'>
+			
+				<div class='container'>
+					<div class='row'>
+						<p class="col-md-10"><p><center><a href="https://cla-assistant.io/sarl/sarl" target="_blank"><img src="https://cla-assistant.io/readme/badge/sarl/sarl?style=flat-square"/></a></center></p>
+
+<h1>License of SARL</h1>
+
+<pre><code>Copyright 2014-2017 the original authors or authors.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+   <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">http://www.apache.org/licenses/LICENSE-2.0</a>
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.</code></pre></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		<!-- FOOTER -->
+  <footer class="row">
+    <div class="container">
+      <div class="col-lg-3">
+        <div class="well well-sm">
+          
+          <center>
+          <h2>SARL</h2>
+          <div>Agent-Oriented Programming Language</div>
+          <img src="./images/SARL-logo.png" style="width:30%;max-width:64px;"/><br/>
+          <small><a href="{{ page.relative }}images/SARL-logo.png">png</a>&nbsp;&middot;&nbsp;<a href="{{ page.relative }}images/SARL-logo.svg">svg</a></small>
+          </center>
+        </div>
+      </div>
+      <div class="col-lg-3">
+        <div class="well well-sm">
+        <h2><i class="glyphicon glyphicon-th-large"></i> Quick Links </h2> 
+        <ul class="fa-ul">
+        <li>
+        <a href="{{ page.relative }}news/index.html">
+          <i class="fa-li fa fa-feed"></i> News
+        </a>
+        </li>
+        <li>
+        <a href="{{ page.relative }}about/index.html">
+          <i class="fa-li fa fa-info"></i> About
+        </a>
+        </li>
+        <li>
+        <a href="{{ page.relative }}about/index.html#license">
+          <i class="fa-li fa fa-legal"></i> License
+        </a>
+        </li>
+        </ul>
+        </div> 
+      </div>
+      <div class="col-lg-3">
+        <div class="well well-sm">
+        <h2><i class="glyphicon glyphicon-cog"></i> Support</h2>
+        <ul class="fa-ul">
+        <li>
+        <a href="{{ page.relative }}community/forums.html">
+          <i class="fa-li fa fa-comments"></i> User Forums
+        </a>
+        </li>
+      {% if site.github_username %}
+        <li>
+        <a href="https://github.com/{{ site.github_username }}" target="_blank">
+          <i class="fa-li fa fa-github"></i> GitHub
+        </a>
+        </li>
+        <li>
+        <a href="https://github.com/{{ site.github_username }}/issues" target="_blank">
+          <i class="fa-li fa fa-bug"></i> Report an Issue
+        </a>
+        </li>
+      {% endif %}
+      {% if site.linkedin_username %}
+        <li>
+        <a href="https://linkedin.com/in/{{ site.linkedin_username }}" target="_blank">
+          <i class="fa-li fa fa-linkedin"></i> LinkedIn
+        </a>
+        </li>
+      {% endif %}
+      {% if site.facebook_username %}
+        <li>
+        <a href="https://www.facebook.com/{{ site.facebook_username }}" target="_blank">
+          <i class="fa-li fa fa-facebook"></i> Facebook
+        </a>
+        </li>
+      {% endif %}
+      {% if site.twitter_username %}
+        <li>
+        <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+          <i class="fa-li fa fa-twitter"></i> Twitter
+        </a>
+        </li>
+      {% endif %}
+      {% if site.dribbble_username %}
+        <li>
+          <a href="https://dribbble.com/{{ site.dribbble_username }}" target="_blank">
+          <i class="fa-li fa fa-dribbble"></i> Dribbble
+        </a>
+        </li>
+      {% endif %}
+        </ul>
+        </div> 
+      </div>
+      <div class="col-lg-3">
+        <div class="well well-sm">
+        <h2><i class="glyphicon glyphicon-link"></i> Links</h2>
+        <ul class="fa-ul">
+          <li><a href="http://www.janusproject.io" target="_blank"><i class="fa-li fa fa-gears"></i>Janus Project</a></li>
+          <li><a href="http://www.gitia.org" target="_blank"><i class="fa-li fa fa-university"></i>GITIA - FRT - UTN</a></li>
+          <li><a href="http://www.multiagent.fr" target="_blank"><i class="fa-li fa fa-university"></i>MAS Group - LE2I - UBFC</a></li>
+        </ul>
+        </div> 
+      </div>
+      </div>
+
+    </div>
+    
+  </footer>
+	</body>
+</html>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src='../js/css3-animate-it.js'></script>
+<script src="../js/custom.js"></script>
